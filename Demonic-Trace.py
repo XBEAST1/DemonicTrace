@@ -3,22 +3,22 @@ import os
 import glob
 
 print ('''
-                                                                                                   
-                                                                                                   
-________   __________ ___       ___   ____    ___      ___      __________ ____     ___ __________ 
-`MMMMMMMb. `MMMMMMMMM `MMb     dMM'  6MMMMb   `MM\     `M'      `MMMMMMMMM `MM(     )M' `MMMMMMMMM 
- MM    `Mb  MM      \  MMM.   ,PMM  8P    Y8   MMM\     M        MM      \  `MM.    d'   MM      \ 
- MM     MM  MM         M`Mb   d'MM 6M      Mb  M\MM\    M        MM          `MM.  d'    MM        
- MM     MM  MM    ,    M YM. ,P MM MM      MM  M \MM\   M        MM    ,      `MM d'     MM    ,   
- MM     MM  MMMMMMM    M `Mb d' MM MM      MM  M  \MM\  M        MMMMMMM       `MM'      MMMMMMM   
- MM     MM  MM    `    M  YM.P  MM MM      MM  M   \MM\ M        MM    `        MM       MM    `   
- MM     MM  MM         M  `Mb'  MM MM      MM  M    \MM\M        MM             MM       MM        
- MM     MM  MM         M   YP   MM YM      M9  M     \MMM        MM             MM       MM        
- MM    .M9  MM      /  M   `'   MM  8b    d8   M      \MM        MM      /      MM       MM      / 
-_MMMMMMM9' _MMMMMMMMM _M_      _MM_  YMMMM9   _M_      \M       _MMMMMMMMM     _MM_     _MMMMMMMMM 
-                                                                                                   
-                                                                                                   
-                                                                                                   
+________  __________ ___       ___   ____   ___      _______   ____         __________ ________          _        ____   __________ 
+`MMMMMMMb.`MMMMMMMMM `MMb     dMM'  6MMMMb  `MM\     `M'`MM'  6MMMMb/       MMMMMMMMMM `MMMMMMMb.       dM.      6MMMMb/ `MMMMMMMMM 
+ MM    `Mb MM      \  MMM.   ,PMM  8P    Y8  MMM\     M  MM  8P    YM       /   MM   \  MM    `Mb      ,MMb     8P    YM  MM      \ 
+ MM     MM MM         M`Mb   d'MM 6M      Mb M\MM\    M  MM 6M      Y           MM      MM     MM      d'YM.   6M      Y  MM        
+ MM     MM MM    ,    M YM. ,P MM MM      MM M \MM\   M  MM MM                  MM      MM     MM     ,P `Mb   MM         MM    ,   
+ MM     MM MMMMMMM    M `Mb d' MM MM      MM M  \MM\  M  MM MM                  MM      MM    .M9     d'  YM.  MM         MMMMMMM   
+ MM     MM MM    `    M  YM.P  MM MM      MM M   \MM\ M  MM MM                  MM      MMMMMMM9'    ,P   `Mb  MM         MM    `   
+ MM     MM MM         M  `Mb'  MM MM      MM M    \MM\M  MM MM                  MM      MM  \M\      d'    YM. MM         MM        
+ MM     MM MM         M   YP   MM YM      M9 M     \MMM  MM YM      6           MM      MM   \M\    ,MMMMMMMMb YM      6  MM        
+ MM    .M9 MM      /  M   `'   MM  8b    d8  M      \MM  MM  8b    d9           MM      MM    \M\   d'      YM. 8b    d9  MM      / 
+_MMMMMMM9'_MMMMMMMMM _M_      _MM_  YMMMM9  _M_      \M _MM_  YMMMM9           _MM_    _MM_    \M\_dM_     _dMM_ YMMMM9  _MMMMMMMMM 
+       
+                                  by XBEAST ~  Hunt, haunt, and expose with Wi-Fi Enforcer.
+                                                         v3.2
+                                        Github Link: https://github.com/XBEAST1
+
 ''')
 def loop():
     global iface
@@ -55,7 +55,7 @@ def loop():
 
         while True:
             # Prompt the user to select a Wi-Fi adapter by entering the corresponding number
-            selection = input("Enter the number corresponding to the Wi-Fi adapter you want to select: \n\n")
+            selection = input("Enter the number corresponding to the Wi-Fi adapter you want to select: \n\nYour Choice: ")
 
             try:
                 selection = int(selection)
